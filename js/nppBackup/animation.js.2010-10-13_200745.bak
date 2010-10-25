@@ -1,0 +1,13 @@
+function menuslidedown (menu,content,Submenu) {
+	$(menu).bind('click', function() {
+    if($(content).is('visible')) {
+      $(content).hide('',{}, 1000, function(){});
+    } else
+      {$(submenu).slideDown(1000, function() {});
+    }
+  });
+  }
+
+$(document).ready(function() {
+	menuslidedown('#NewsMain', '.Content','#News');
+});

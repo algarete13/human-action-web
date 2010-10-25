@@ -1,0 +1,181 @@
+<!--Created by Joel Montero "Algarete13"-->
+<!--Cooperation from Corie Ridlon-->
+
+<html>
+<head>
+  <title>Human Action</title>
+  <link type="text/css" href="human-action2.css" rel="Stylesheet">
+  <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.4.custom.css" rel="Stylesheet" />
+  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.4.custom.min.js"></script>
+  <script type="text/javascript" src="js/animation2.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+</head>
+
+<body>
+<div id="centered">
+  <div id="header" class="HideAtLoad FadeBackIntro">
+    <p class="top-logo">HUMAN</p>
+    <p class="top-logo action-shrink"><span class="logo-color">ACT</span>ION</p>
+  </div>
+
+<!--***MENUS***-->
+  
+<div id="menubox">
+      <div id="menus" class="HideAtLoad FadeBackIntro">
+        <p class="no-p-margin menu"><a id="NewsMain" href="#">news</a></p>
+        <p class="no-p-margin menu"><a id="AboutMain" href="#">about</a></p>
+        <p class="no-p-margin menu"><a id="ProjectsMain" href="#">projects</a></p>
+        <p class="no-p-margin menu"><a id="ArtMain" href="#">art+media</a></p>
+        <p class="no-p-margin menu"><a id="BlogMain" href="#">blog</a></p>
+        <p class="no-p-margin menu"><a id="SupportMain" href="#">support</a></p>
+        <p class="no-p-margin menu"><a id="ContactMain" href="#">contact</a></p>
+      </div>
+    </div>
+<!--***SUB-MENUS***-->
+      <div class="submenus FadeBackIntro Content" id="Overview">
+        <p class="no-p-margin submenu">Human Action is a nonprofit Haiti relief organization, dedicated to empowering disaster victims to self-sufficiency through innovations in technology, education and communications.</p>
+	<p id="half-break" class="submenu"><a href="#">Learn more</a> or <a id="ClickDonate"  href="#">donate now.</a></p>
+      </div>
+      <div class="submenus" id="News">
+	<p class="no-p-margin submenu"><a class="submenu" id="2010" href="#">2010</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="20110" href="#">2011</a></p>
+      </div>
+      <div class="submenus" id="About">
+	<p class="no-p-margin submenu"><a class="submenu" id="Overview" href="#">OVERVIEW</a></p>
+        <p class="no-p-margin submenu"><a class="submenu" id="Philosophy" href="#">PHILOSOPHY</a></p>
+        <p class="no-p-margin submenu"><a class="submenu" id="Actors" href="#">HUMAN ACTORS</a></p>
+        <p class="no-p-margin submenu"><a class="submenu" id="Press" href="#">PRESS</a></p>
+      </div>
+      <div class="submenus" id="Projects">
+	<p class="no-p-margin submenu"><a class="submenu" id="Ehub" href="#">EHUB LEARNING CENTER</a></p>
+        <p class="no-p-margin submenu"><a class="submenu" id="Pharos" href="#">PHAROS</a></p>
+      </div>
+<!--Corie's Work Begins-->
+      <div class="submenus" id="Art">
+	<p class="no-p-margin submenu"><a class="submenu" id="Events" href="#">EVENTS</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Media" href="#">MEDIA</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Cine5" href="#">CINE5</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Mizik5" href="#">MIZIK5</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Architecture" href="#">ARCHITECTURE</a></p>
+      </div>
+      <div class="submenus" id="Blog">
+	<p class="no-p-margin submenu"><a class="submenu" id="BlogPost" href="#">TITLES OF POST</a></p>
+      </div>
+      <div class="submenus" id="Support">
+	<p class="no-p-margin submenu"><a class="submenu" id="Donate" href="#">DONATE</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Spread" href="#">SPREAD THE WORD</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Opportunities" href="#">OPPORTUNITIES</a></p>
+      </div>
+      <div class="submenus" id="SlideDownSpreadTheWord">
+	<p class="no-p-margin submenu"><a class="submenu" id="Twitter" href="#">TWITTER</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Facebook" href="#">FACEBOOK</a></p>	
+	<p class="no-p-margin submenu"><a class="submenu" id="Banners" href="#">BANNERS</a></p>	
+      </div>
+      <div class="submenus" id="Contact">
+	<p class="no-p-margin submenu"><a class="submenu" id="Talk" href="#">TALK</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Write" href="#">WRITE</a></p>
+	<p class="no-p-margin submenu"><a class="submenu" id="Skype" href="#">SKYPE</a></p>
+      </div>
+
+<!--Corie's Work Ends-->  
+<!--***CONTENT AREA***-->
+  <div class="bumper-center HideAtLoad FadeAtLoad FadeAwayIntro">
+    <div class="bumper">
+      <p class="logo bumper-logo">HUMAN</p>
+      <p class="logo bumper-logo action-shrink"><span class="logo-color">ACT</span>ION</p>
+    </div>
+    <div class="bumper lang-pos FadeAtLoad ShowAtLoad FadeAwayIntro">
+      <p class="lang"><a class="ClickFadeIntro" href="#">ENGLISH</a></p>
+      <p class="lang"><a href="#">FRENCH</a></p>
+      <p class="lang"><a href="#">CREOLE</a></p>
+    </div>
+  </div>
+  <div class="content" id="2010fade">
+    <img src="img/newspaper.gif" width="25%" />
+  </div>
+    <div class="content" id="2011">
+    <img src="img/newspaper.gif" width="25%" />
+  </div>
+<!--***Corie's Work Begins-->
+  <div class="content" id="philosophy">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="actors">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="press">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="ehub">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="pharos">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="events">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="media">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="cine5">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="mizik5">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="architecture-">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="blog-">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="donate">
+    <img src="img/ha_donate 2.gif">
+  </div>
+  <div class="content" id="spread">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="opportunities">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="twitter">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="facebook">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="banners">
+    <p>TEST</P>
+  </div>
+  <div class="content" id="talk">
+    <p>TEST</P>
+  </div>
+    <div class="content" id="contact_form write">
+  <form name="contact" action="">
+    <fieldset>
+      <label for="name" id="name_label">Name</label>
+      <input type="text" name="name" id="name" size="30" value="" class="text-input" />
+      <label class="error" for="name" id="name_error">This field is required.</label>
+
+      <label for="email" id="email_label">Return Email</label>
+      <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+      <label class="error" for="email" id="email_error">This field is required.</label>
+
+      <label for="phone" id="phone_label">Return Phone</label>
+      <input type="text" name="phone" id="phone" size="30" value="" class="text-input" />
+      <label class="error" for="phone" id="phone_error">This field is required.</label>
+
+    	<br />
+      <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+    </fieldset>
+  </form>
+  </div>
+  <div class="content" id="skype">
+    <p>TEST</P>
+  </div> 
+</div>
+<!--***Corie's Work Ends-->
+</body>
+</html>

@@ -1,0 +1,24 @@
+//function intro (content,bumper) {
+  //$(document).ready(function() {
+   // if($(conent).is(':visible')) {
+     //   $(content).hide
+   // $('.HideAtLoad').hide();
+    //$( '.FadeAtLoad').fadeIn(3000);
+    //$('.ClickFadeIntro').click(function() {
+     // $('.FadeAwayIntro').fadeOut(1000, function() {
+   //     $('.FadeBackIntro').fadeIn(1000, function() {
+ //       });
+//      });
+//    });
+function menuslidedown (menu,content,submenu) {
+	$(menu).bind('click', function() {
+    if($(content).is(':visible')) {
+        $(content).fadeOut(1000,"", function(){});
+        $(submenu).slideDown(2000, function() {});
+    }
+  });
+  }
+
+$(document).ready(function() {
+	menuslidedown('#NewsMain', '.Content','#News');
+});

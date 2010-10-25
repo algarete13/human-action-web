@@ -1,0 +1,271 @@
+/*Create by Joel Montero "Algarete13"*/
+
+@font-face: {
+  font-family: "LiberationSans";
+  src: url("font/liberationsans-regular-webfont.eot");
+  src: local("&#x263A;"),
+    url("font/liberationsans-regular-webfont.woff") format("woff")
+    url("font/liberationsans-regular-webfont.otf") format("opentype")
+    url("font/liberationsans-regular-webfont.svg#webfontBChwNyYr") format("svg")
+    }@font-face: {
+  font-family: "LiberationSans";
+  font-style: bold;
+  src: url("font/liberationsans-bold-webfont.eot");
+  src: local("&#x263A;"),
+    url("font/liberationsans-bold-webfont.woff") format("woff")
+    url("font/liberationsans-bold-webfont.otf") format("opentype")
+    url("font/liberationsans-bold-webfont.svg#webfontfTHcvyLO") format("svg")
+    }
+
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  width:100%;
+
+  font-size:9pt;
+  font-family:"LiberationSans", Helvetica Neue, Helvetica, serif;
+  background-color:#FFF;
+  color: #666666;
+}
+
+#centered {
+  width:1024px;
+
+  border:0px;
+  padding:0;
+  margin: 0 auto;
+}
+  
+a {outline: none;}
+a:link {text-decoration:none; color:#666666;}
+a:visited {text-decoration:none; color:#666666;}
+a:hover {text-decoration:none; color: #CCCCCC;}
+a:active {text-decoration:none; color: #CCCCCC;}
+
+#header {
+  clear:both;
+  width:100%;
+  float:left;
+  padding-bottom:15px;
+}
+
+.logo-color {
+    color:CCCCCC;
+}
+
+/*column container*/
+.colmask {
+  clear:both;
+  float:left;
+  
+  margin-left:27%;
+
+  width:100%;
+  overflow:hidden;
+}
+
+.colright, .colleft {
+  width:100%;
+  position:relative;
+}
+
+.col1, .col2 {
+  float:left;
+  position:relative;
+  padding:0 0 1em 0;
+  overflow:hidden;
+}
+
+/*2 Column (double page) settings*/
+.doublepage, .colleft {
+  right:50%;
+}
+
+.doublepage, .col1 {
+  width:44%;
+  left:54%;
+}
+
+.doublepage, .col2 {
+  width:50%;
+  left:58%;
+}
+
+/*logo styling*/
+.top-logo {  
+  font-size:40;
+  text-align:center;
+  margin-top:0;
+  margin-bottom:-1%;
+}
+
+.bumper-logo {
+  clear:both;
+  float:left;
+  font-size:85;
+  
+  text-alignt:center;
+
+  margin-bottom:-3%;
+  margin-top:-3%;
+}
+
+.bumper-center {  
+  padding-left:350px;
+  padding-top:250px;
+}
+
+.lang-pos {
+  position:relative;
+  top:50px;
+  left:25px;
+}
+
+.lang {
+  font-size:16;
+  margin-bottom:0.25em;
+  margin-top:0.25em;
+}
+
+.action-shrink {
+  letter-spacing:0.5px;
+}
+
+.bumper {
+  float:left;
+}
+
+/***MENUS STYLING*/
+.no-p-margin {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+#half-break {
+  margin-top:5px;
+}
+
+.menu {
+  text-align:right;
+}
+
+.submenu {
+  font-size:8pt;
+  color:#CCCCCC;
+}
+
+.submenu a {text-decoration:none; color:#CCCCCC;}
+.submenu a:visited {text-decoration:none; color:#CCCCCC;}
+.submenu a:hover {text-decoration:none; color: #666666;}
+.submenu a:active {text-decoration:none; color: #666666;}
+
+/***NEWS STYLING***/
+.news {
+  clear:both;
+  float:left;
+  padding-left:0;
+  padding-top:0;
+}
+
+/***NEWS STYLING***/
+.content {
+  clear:both;
+  float:left;
+}
+
+#news {
+  padding-left:0;
+  padding-top:0;
+}
+
+#philosophy {
+  padding-left:0;
+  padding-top:0;
+}
+
+#actors {
+  padding-left:0;
+  padding-top:0;
+}
+
+#press {
+  padding-left:0;
+  padding-top:0;
+}
+
+#ehub {
+  padding-left:0;
+  padding-top:0;
+}
+
+#pharos {
+  padding-left:0;
+  padding-top:0;
+}
+
+#events {
+  padding-left:0;
+  padding-top:0;
+}
+
+#media {
+  padding-left:0;
+  padding-top:0;
+}
+
+#cine5 {
+  padding-left:0;
+  padding-top:0;
+}
+
+#mizik5 {
+  padding-left:0;
+  padding-top:0;
+}
+
+#architecture {
+  padding-left:0;
+  padding-top:0;
+}
+
+#blog {
+  padding-left:0;
+  padding-top:0;
+}
+
+#donate {
+  padding-left:0;
+  padding-top:0;
+}
+
+#spread {
+  padding-left:0;
+  padding-top:0;
+}
+
+#opportunities {
+  padding-left:0;
+  padding-top:0;
+}
+
+#twitter {
+  padding-left:0;
+  padding-top:0;
+}
+
+#facebook {
+  padding-left:0;
+  padding-top:0;
+}
+
+#banners {
+  padding-left:0;
+  padding-top:0;
+}
+
+#talk {
+  padding-left:0;
+  padding-top:0;
+}
+

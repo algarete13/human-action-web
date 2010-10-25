@@ -1,0 +1,20 @@
+<!--Created by Joel Montero "Algarete13"-->
+
+<html>
+<head>
+  <title>Human Action</title>
+  <link type="text/css" href="temp.css" rel="Stylesheet">
+</head>
+
+<body>
+<div id="centered">
+  <div class="bumper-center">
+    <div class="bumper">
+      <p class="logo bumper-logo">HUMAN</p>
+      <p class="logo bumper-logo" id="action-shrink"><span class="logo-color">ACT</span>ION</p>
+      <p class="logo">The full website for Human Action will launch on the week of October 18, 2010. If you want to support our cause, please click on the donation button below.</p>
+      <img src="img/ha_donate 2.gif" id="support">
+    </div>
+  </div>
+</body>
+</html>

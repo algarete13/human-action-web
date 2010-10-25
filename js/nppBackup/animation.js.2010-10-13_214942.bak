@@ -1,0 +1,38 @@
+function menuslidedown (menu,content,submenu) {
+	$(menu).bind('click', function() {
+    if($(content).is(':visible')) {
+        $(content).fadeOut(2000,"", function(){
+          $(submenu).slideDown(2000, function() {});
+        });
+    }
+  });
+  }
+  
+function contentfade (submenu,content) {
+	$(submenu).bind('click', function() {
+    if($(content).is(':visible')) {
+        $(content).fadeOut(2000,"", function(){});
+        $(submenu).slideDown(2000, function() {});
+    }
+  });
+  }
+
+$(document).ready(function() {
+  $('.HideAtLoad').hide();
+  $('.Content').hide();
+  $('.FadeAtLoad').fadeIn(3000);
+  $('.ClickFadeIntro').click(function() {
+    $('.FadeAwayIntro').fadeOut(1000, function() {
+      $('.FadeBackIntro').fadeIn(1000, function() {
+      });
+    });
+  });
+	
+  menuslidedown('#NewsMain', '.Content','#News');
+  menuslidedown('#AboutMain', '.Content','#About');
+  menuslidedown('#ProjectsMain', '.Content','#Projects');
+  menuslidedown('#ArtMain', '.Content','#Art');
+  menuslidedown('#BlogMain', '.Content','#Blog');
+  menuslidedown('#SupportMain', '.Content','#Support');
+  menuslidedown('#ContactMain', '.Content','#Contact');
+});

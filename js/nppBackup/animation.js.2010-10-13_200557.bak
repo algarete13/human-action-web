@@ -1,0 +1,11 @@
+function menuslidedown (menu,content,Submenu) {
+	$(menu).click(function() {
+    $(content).FadeOut(1000, function(){
+	    $(submenu).slideDown(1000, function() {});
+    });
+  });
+}
+
+$(document).ready(function() {
+	menuslidedown('#NewsMain', '.Content','#News');
+});

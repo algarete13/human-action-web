@@ -1,0 +1,22 @@
+function menuslidedown (menu,content,submenu) {
+	$(menu).bind('click', function() {
+    if($(content).is(':visible')) {
+        $(content).fadeOut(1000,"", function(){});
+        $(submenu).slideDown(2000, function() {});
+    }
+  });
+  }
+
+$(document).ready(function() {
+  $('.HideAtLoad').hide();
+  $('.Content').hide();
+  $('.FadeAtLoad').fadeIn(3000);
+  $('.ClickFadeIntro').click(function() {
+    $('.FadeAwayIntro').fadeOut(1000, function() {
+      $('.FadeBackIntro').fadeIn(1000, function() {
+      });
+    });
+  });
+	
+  menuslidedown('#NewsMain', '.Content','#News');
+});

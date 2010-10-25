@@ -1,0 +1,53 @@
+/*Create by Joel Montero "Algarete13"*/
+
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  width:100%;
+
+  font-size:9pt;
+  font-family:"LiberationSans", Helvetica Neue, Helvetica, serif;
+  background-color:#FFF;
+  color: #666666;
+}
+
+a {outline: none;}
+a:link {text-decoration:none; color:#CCCCCC;}
+a:visited {text-decoration:none; color:#CCCCCC;}
+a:hover {text-decoration:none; color: #666666;}
+a:active {text-decoration:none; color: #666666;}
+
+#centered {
+  width:1024px;
+
+  border:0px;
+  padding:0;
+  margin: 0 auto;
+}
+  
+/*logo styling*/
+.logo-color {
+    color:CCCCCC;
+}
+
+.bumper-logo {
+  font-size:85;
+  
+  text-align:center;
+
+  margin-bottom:-1%;
+  margin-top:-1%;
+}
+
+#logo {
+  text-align:center;
+}
+
+.bumper-center {  
+  padding-top:250px;
+}
+
+#action-shrink {
+  letter-spacing:-2;
+}

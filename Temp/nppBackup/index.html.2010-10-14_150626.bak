@@ -1,0 +1,19 @@
+<!--Created by Joel Montero "Algarete13"-->
+
+<html>
+<head>
+  <title>Human Action</title>
+  <link type="text/css" href="temp.css" rel="Stylesheet">
+</head>
+
+<body>
+<div id="centered">
+  <div class="bumper-center">
+    <div class="bumper">
+      <p class="logo bumper-logo">HUMAN</p>
+      <p class="logo bumper-logo" id="action-shrink"><span class="logo-color">ACT</span>ION</p>
+      <p class="logo">WebSite Launches on the week of October 18, 2009</p>
+    </div>
+  </div>
+</body>
+</html>

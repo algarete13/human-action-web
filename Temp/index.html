@@ -1,0 +1,32 @@
+<!--Created by Joel Montero "Algarete13"-->
+
+<html>
+<head>
+  <title>Human Action</title>
+  <link type="text/css" href="temp.css" rel="Stylesheet">
+  <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+  <script type="text/javascript">
+  function loading(bumper){
+    if($(bumper).is(':visible')) {
+         $(bumper).hide();
+         $(bumper).fadeIn(3000);
+    }
+  }
+
+  $(document).ready(function() {
+    loading(".bumper");
+ });
+  </script>
+</head>
+
+<body>
+<div id="centered">
+  <div class="bumper-center" id="hideatload fadeatload">
+    <div class="bumper">
+      <p class="logo bumper-logo">HUMAN</p>
+      <p class="logo bumper-logo" id="action-shrink"><span class="logo-color">ACT</span>ION</p>
+      <p id="logo">Official website launches on the week of 10.18.<br><a href="mailto:contact@humanactionnow.org">E-mail</a> for more information.</p>
+    </div>
+  </div>
+</body>
+</html>

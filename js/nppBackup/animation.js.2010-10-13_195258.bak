@@ -1,0 +1,11 @@
+function MenuSlideDown (MenuId,ContentClass,SubmenuId) {
+	$(MenuId).click(function() {
+    $(ContentClass).FadeOut(1000, function(){
+	    $(SubmenuId).slideDown(1000, function() {});
+    });
+  });
+}
+
+$(document).ready(function() {
+	MenuSlideDown('#NewsMain', '.Content','#News');
+});

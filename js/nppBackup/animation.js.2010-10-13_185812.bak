@@ -1,0 +1,6 @@
+function MenuSlideDown (MenuId,ContentClass,SubmenuId) {
+	  $(contentClass).FadeOut(1000);
+	  $(menuid).click(function() {
+	    $(submenuid).slideDown(1000, function() {});
+    });
+  }

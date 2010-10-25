@@ -1,0 +1,2 @@
+$(document).ready(function() {
+    $('.FadeAtLoad').fadeIn(3000);
