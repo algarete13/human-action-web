@@ -56,11 +56,12 @@ a:active {text-decoration:none; color: #CCCCCC;}
 }
 
 #action-shrink {
-  letter-spacing:-2;
+  letter-spacing:-.5;
 }
 
 .top-logo {  
   font-size:40;
+  font-weight:bold;
   text-align:center;
   margin-top:0;
   margin-bottom:-1%;
@@ -70,7 +71,7 @@ a:active {text-decoration:none; color: #CCCCCC;}
   clear:both;
   float:left;
   font-size:85;
-  
+  font-weight:bold;
   text-align:center;
 
   margin-bottom:-3%;

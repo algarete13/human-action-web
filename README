@@ -1,0 +1,4 @@
+10-25
+Status update: The link structure from menu to submenu has minor issues:
+       - If the user clicks the menu items quickly, it will show both submenus at once (overlapping each other)
+       - The transition in between submenus is not as smooth as we would like it to be. We rather have the existing submenu fade out and then have the new submenu fade in. I've been playing around with this with little to note success. The problem is that the animations are running at the same time thus fading out and pushing the links down while the submenus appear.
